@@ -1,0 +1,26 @@
+{
+	"name": "microservice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start-book": "nodemon ./src/Book/book.js",
+		"start-customer": "nodemon ./src/Customer/customer.js",
+		"start-order": "nodemon ./src/Order/order.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"mysql2": "^2.3.3",
+		"sequelize": "^6.19.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.15.0",
+		"nodemon": "^2.0.16",
+		"prettier": "2.6.2"
+	}
+}
